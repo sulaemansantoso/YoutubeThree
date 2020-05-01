@@ -16,3 +16,17 @@ video {
     border: 4px solid black;
     background-color: aliceblue;
 }
+
+canvas {
+    border : 4px dashed black;
+
+}
+
+.middle {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:150px;
+    margin-bottom: auto;
+    width: 500px;
+}
+

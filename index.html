@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>THREEJS Tutorial</title>
     <script src="node_modules/three/build/three.min.js"></script>
     <script src="node_modules/three/examples/js/controls/OrbitControls.js"></script>
     <script src="node_modules/three/examples/js/controls/FirstPersonControls.js"></script>
     <script src="node_modules/three/examples/js/loaders/TTFLoader.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!--
         <video id="video1"
          src="video/opening.webm" width="500" height="500" loop  controls></video>
         -->
-    <canvas id=container width="400" height="400"></canvas>
-    <script type=module src="lib/tutorial16-MultipleViewport.js"></script>
-</body>
+    <div class=middle>
+      <div id="container" width="600" height="600"></div>
+    </div>
 
+    <script type="module" src="lib/tutorial16-MultipleViewport.js"></script>
+  </body>
 </html>
