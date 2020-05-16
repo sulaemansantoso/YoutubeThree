@@ -9,6 +9,7 @@
     <script src="node_modules/three/examples/js/controls/OrbitControls.js"></script>
     <script src="node_modules/three/examples/js/controls/FirstPersonControls.js"></script>
     <script src="node_modules/three/examples/js/loaders/TTFLoader.js"></script>
+    <script src="node_modules/three/examples/js/controls/PointerLockControls.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -18,9 +19,11 @@
          src="video/opening.webm" width="500" height="500" loop  controls></video>
         -->
     <div class=middle>
-      <div id="container" width="600" height="600"></div>
+      <div id="container" width="600" height="600">
+        <button id=button1> press me </button>
+      </div>
     </div>
 
-    <script type="module" src="lib/tutorial18-RenderTarget.js"></script>
+    <script type="module" src="lib/tutorial22-FPSLockControl.js"></script>
   </body>
 </html>

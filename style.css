@@ -7,6 +7,10 @@ video {
     display: none;
 }
 
+.middle {
+ position: absolute;
+}
+
 #oldCanvas {
     width: 400px;
     height: 400px;
